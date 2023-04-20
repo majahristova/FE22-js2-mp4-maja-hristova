@@ -92,10 +92,16 @@ deleteButton.addEventListener("click", (button) => {
     calculator.updateAndDisplayNum();
 });
 //Image holder 
-const outputBackground = document.querySelector('.grid-calculator');
+
+
+
+const outputBackground = document.querySelector('.grid-calculator')
+
 const img = document.createElement('img');
 outputBackground.appendChild(img);
+
 const imageURL = new URL('./img/backgroundimage.jpg', import.meta.url);
 img.src = imageURL.href;
 img.classList.add('imgBackground');
-export {};
+
+
